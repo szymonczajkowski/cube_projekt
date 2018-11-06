@@ -1,0 +1,121 @@
+section.napisy {
+
+    background-color: #F6F6F6;
+    height: 30rem;
+
+    div.quotes1 {
+
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        >h2 {
+            
+            display: inline-block;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3rem;
+            font-weight: 400;
+            color: rgb(63, 63, 63);
+            padding-bottom: 1rem;
+            
+        }
+
+        >p {
+    
+            display: inline-block;
+            font-family: 'Raleway', sans-serif;
+            color: gray;
+            font-size: 2rem;
+            font-weight: 400;
+            text-align: center;
+            width: 70rem;
+
+            
+        }
+
+    }
+
+}
+
+section.quotes-fluid {
+
+    background-color:#F6F6F6;
+    justify-content: center;
+
+    
+    div.quotes {
+
+        height: 40rem;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border: 2rem;
+        align-items: flex-start;
+
+
+        div.kolo1 {
+
+            height: 5.5rem;
+            width: 5.5rem;
+            background-image: linear-gradient(to bottom, #c4c4c4, #b1b1b1, #9e9e9e, #8c8c8c, #7a7a7a);
+            border-radius: 50%;
+            margin-right: 2rem;
+              
+        }
+
+        div.kolo2 {
+
+            height: 5.5rem;
+            width: 5.5rem;
+            background-image: linear-gradient(to bottom, #ded2d2, #c5bdbf, #ada8ab, #959496, #808080);
+            border-radius: 50%;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            
+        }
+
+        div.kolo3 {
+
+            height: 5.5rem;
+            width: 5.5rem;
+            background-image: linear-gradient(to bottom, #999999, #8b8b8b, #7e7e7e, #717171, #646464);
+            border-radius: 50%;
+            margin-right: 2rem;
+            
+        }
+
+        div.kolo4 {
+
+            height: 5.5rem;
+            width: 5.5rem;
+            background-image: linear-gradient(to bottom, #717171, #656565, #5a5a5a, #4f4f4f, #444444);
+            border-radius: 50%;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            
+                      
+        }
+        
+        >article {
+
+            width: 40%;
+            padding: none;
+            font-family: 'Raleway', sans-serif;
+            color:gray;
+            font-size: 1.8rem;
+            font-weight: 400;
+
+            > i.nazwiska{
+
+                font-size: 1.5rem;
+                color: rgb(102, 102, 102);
+                font-weight: 800;
+
+            }
+
+        }
+
+    }
+}

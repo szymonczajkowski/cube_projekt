@@ -1,0 +1,190 @@
+footer.footer-fluid {
+
+    background-color: #262626;
+    height: 45rem;
+
+    div.footer-napis {
+
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        >h2{
+
+            font-family: 'Raleway', sans-serif;
+            font-size:  3rem;
+            font-weight: 300;
+            color: #fff;
+            margin-bottom: 2rem;
+
+        }
+
+
+
+        .footer-button{
+
+            display: flex;
+            height: 5rem;
+            
+        
+            >a{
+
+                text-decoration: none;
+                display: inline-block;
+
+                .przycisk{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    height: 5rem;
+                    width: 15rem;
+                    background-color: #262626;
+                    text-align: center;
+                    margin: 0;
+                    padding:2rem;
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    border: 2px solid;
+                    border-color: #fff;
+                    
+                    
+                    >span{
+
+                        font-family: 'Raleway', sans-serif;
+                        color: #fff;
+                        letter-spacing: 1px;
+
+                    }
+
+                }
+
+            }
+
+            
+
+        }
+
+    }
+
+    div.footer-main {
+
+        display: flex;
+        background-color: #262626;
+        height: 15rem;
+
+        div.footer-cube{
+
+            display: flex;
+            flex-direction: column;
+            background-color: #262626;
+            height: 100%;
+            width: 33%;
+
+            >h2{
+
+                font-family: 'Raleway', sans-serif;
+                color: #fff;
+                font-size: 2rem;
+                font-weight: 300;
+                margin-bottom: 1rem;
+
+            }
+
+            >p{
+
+                font-family: 'Raleway', sans-serif;
+                color: rgb(85, 85, 85);
+                font-size: 1.6rem;
+                font-weight: 400;
+
+            }
+
+        }
+
+        nav.footer-list{
+
+            background-color: #262626;
+            width: 16.5%;
+
+
+            >ul{
+
+                list-style: none;
+                line-height: 2.5rem;
+                margin-left: 5rem;
+
+                >li{
+
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 200;
+
+                    >a{
+
+                        text-decoration: none;
+                        color: #00FFA3;
+
+                    }
+
+                }
+
+            }
+
+        }
+
+        div.footer-contact {
+
+            background-color: #262626;
+
+            >p {
+
+                font-family: 'Raleway', sans-serif; 
+                color: #00FFA3;
+                font-size: 1.5rem;
+                font-weight: 200;
+                margin-left: 4rem;
+
+            }
+
+        }
+
+    }
+
+}
+
+div.footer-end{
+
+    width: 100%;
+    height: 6rem;
+    background-color: #1A1A1A;
+    
+
+    div.footer-end-small {
+
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+
+        >p{
+
+            font-family: 'Raleway', sans-serif;
+            color: rgb(85, 85, 85);
+            font-size: 1.5rem;
+            margin-top: 2.2rem;
+
+            >a{
+
+                text-decoration: none;
+                color:#00FFA3;
+                font-size: 1.5rem;
+
+            }
+        
+        }
+
+    }
+
+}

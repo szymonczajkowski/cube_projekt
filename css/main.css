@@ -1,0 +1,838 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url("../font/fontello.eot?53842191");
+  src: url("../font/fontello.eot?53842191#iefix") format("embedded-opentype"), url("../font/fontello.woff2?53842191") format("woff2"), url("../font/fontello.woff?53842191") format("woff"), url("../font/fontello.ttf?53842191") format("truetype"), url("../font/fontello.svg?53842191#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  font-size: 10px;
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+section.navbar-fluid {
+  z-index: 999;
+  top: 0;
+  position: fixed;
+  background-color: white;
+  -webkit-box-shadow: 0px -5px 30px 1px #323232;
+          box-shadow: 0px -5px 30px 1px #323232;
+}
+
+section.navbar-fluid div.navbar {
+  height: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.navbar-fluid div.navbar nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  height: 6rem;
+  width: 58rem;
+}
+
+section.navbar-fluid div.navbar nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section.navbar-fluid div.navbar nav ul li:first-child {
+  margin-left: 0;
+}
+
+section.navbar-fluid div.navbar nav ul li:last-child {
+  margin-right: 0;
+}
+
+section.navbar-fluid div.navbar nav ul li {
+  display: inline-block;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+section.navbar-fluid div.navbar nav ul li > a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+section.navbar-fluid div.navbar nav ul li a.green {
+  color: #2ac3c0;
+}
+
+header.header-top-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 6rem;
+  height: calc(100vh - 6rem);
+  background-image: -webkit-gradient(linear, left top, right top, from(#3dcdbc), color-stop(#2ac3c0), color-stop(#20b8c2), color-stop(#26acc1), to(#33a1bd));
+  background-image: linear-gradient(to right, #3dcdbc, #2ac3c0, #20b8c2, #26acc1, #33a1bd);
+}
+
+header.header-top-fluid .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header.header-top-fluid .container div:nth-child(1) {
+  margin-left: 4.5rem;
+  margin-right: 4.5rem;
+}
+
+header.header-top-fluid .container div:nth-child(2) {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+
+header.header-top-fluid .container div:nth-child(2) h2 {
+  margin-bottom: 4rem;
+  font-size: 6rem;
+  font-weight: 300;
+}
+
+header.header-top-fluid .container div:nth-child(2) p {
+  margin-bottom: 4rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+header.header-top-fluid .container div:nth-child(2) .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 6rem;
+  overflow: hidden;
+}
+
+header.header-top-fluid .container div:nth-child(2) .header-button > a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+header.header-top-fluid .container div:nth-child(2) .header-button > a .przycisk {
+  height: 6rem;
+  width: 25rem;
+  background-color: white;
+  text-align: center;
+  font-weight: 400;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin: 0;
+}
+
+header.header-top-fluid .container div:nth-child(2) .header-button > a .przycisk > span {
+  display: inline-block;
+  color: #2ac3c0;
+  letter-spacing: 1px;
+  margin-top: 2.1rem;
+  font-size: 1.5rem;
+}
+
+header.header-top-fluid .container div:nth-child(2) .header-button a:hover .przycisk {
+  -webkit-transform: translateY(-6rem);
+          transform: translateY(-6rem);
+}
+
+section.info-fluid {
+  height: 40rem;
+  background-color: white;
+}
+
+section.info-fluid div.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: white;
+  height: 40rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+section.info-fluid div.info > article.low-article {
+  background-color: white;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+section.info-fluid div.info > article {
+  height: 30rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  -webkit-box-shadow: 9px 9px 36px 2px #858585;
+          box-shadow: 9px 9px 36px 2px #858585;
+  padding: 2.5rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+section.info-fluid div.info > article > h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  color: #3f3f3f;
+}
+
+section.info-fluid div.info > article > h3 > span {
+  font-family: 'fontello';
+  font-size: 2rem;
+  color: #00FFA3;
+  margin-right: .5rem;
+}
+
+section.info-fluid div.info > article > p {
+  display: inline-block;
+  height: 20rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  margin-bottom: 3rem;
+  color: gray;
+}
+
+section.info-fluid div.info article:hover {
+  -webkit-transform: translateY(-2rem);
+          transform: translateY(-2rem);
+}
+
+section.napisy {
+  background-color: #F6F6F6;
+  height: 30rem;
+}
+
+section.napisy div.quotes1 {
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.napisy div.quotes1 > h2 {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #3f3f3f;
+  padding-bottom: 1rem;
+}
+
+section.napisy div.quotes1 > p {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  width: 70rem;
+}
+
+section.quotes-fluid {
+  background-color: #F6F6F6;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section.quotes-fluid div.quotes {
+  height: 40rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2rem;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+section.quotes-fluid div.quotes div.kolo1 {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c4c4c4), color-stop(#b1b1b1), color-stop(#9e9e9e), color-stop(#8c8c8c), to(#7a7a7a));
+  background-image: linear-gradient(to bottom, #c4c4c4, #b1b1b1, #9e9e9e, #8c8c8c, #7a7a7a);
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+section.quotes-fluid div.quotes div.kolo2 {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ded2d2), color-stop(#c5bdbf), color-stop(#ada8ab), color-stop(#959496), to(#808080));
+  background-image: linear-gradient(to bottom, #ded2d2, #c5bdbf, #ada8ab, #959496, #808080);
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+section.quotes-fluid div.quotes div.kolo3 {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#999999), color-stop(#8b8b8b), color-stop(#7e7e7e), color-stop(#717171), to(#646464));
+  background-image: linear-gradient(to bottom, #999999, #8b8b8b, #7e7e7e, #717171, #646464);
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+section.quotes-fluid div.quotes div.kolo4 {
+  height: 5.5rem;
+  width: 5.5rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#717171), color-stop(#656565), color-stop(#5a5a5a), color-stop(#4f4f4f), to(#444444));
+  background-image: linear-gradient(to bottom, #717171, #656565, #5a5a5a, #4f4f4f, #444444);
+  border-radius: 50%;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+section.quotes-fluid div.quotes > article {
+  width: 40%;
+  padding: none;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+section.quotes-fluid div.quotes > article > i.nazwiska {
+  font-size: 1.5rem;
+  color: #666666;
+  font-weight: 800;
+}
+
+section.brand-panel-fluid {
+  height: 15rem;
+  background-color: #f6f6f6;
+}
+
+section.brand-panel-fluid div.brand-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 15rem;
+  background-color: #f6f6f6;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+section.video-container {
+  background-color: #fff;
+  height: 40rem;
+}
+
+section.video-container div.napisy-wideo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+section.video-container div.napisy-wideo > h2 {
+  margin: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #3f3f3f;
+}
+
+section.video-container div.napisy-wideo > p {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: gray;
+  width: 70rem;
+  margin-bottom: 1rem;
+}
+
+section.video-container div.napisy-wideo div.video-button {
+  margin-top: 1rem;
+}
+
+section.video-container div.napisy-wideo div.video-button > a {
+  display: inline-block;
+  height: 6rem;
+  width: 20rem;
+  background-color: #00FFA3;
+  text-decoration: none;
+  color: #11AF74;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+section.video-container div.napisy-wideo div.video-button > a > span {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2.1rem;
+  letter-spacing: 1px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+section.video-container div.napisy-wideo div.video-button a:hover {
+  background-color: #11AF74;
+}
+
+section.video-container div.napisy-wideo div.video-button a:hover span {
+  color: white;
+}
+
+section.napis-przed-produktami {
+  background-color: #fff;
+  height: 35rem;
+}
+
+section.napis-przed-produktami div.popular-products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  height: 35rem;
+  text-align: center;
+}
+
+section.napis-przed-produktami div.popular-products > h2 {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #3f3f3f;
+  margin-bottom: 1rem;
+}
+
+section.napis-przed-produktami div.popular-products > p {
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  color: gray;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  width: 70rem;
+}
+
+section.products-fluid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 65rem;
+  background-color: #fff;
+}
+
+section.products-fluid div.products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 44.5rem;
+  background-color: #fff;
+}
+
+section.products-fluid div.products div.two-products-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44.5rem;
+  width: 33%;
+  background-color: #fff;
+}
+
+section.products-fluid div.products div.two-products-left > div.product1 {
+  height: 20.5rem;
+  width: 30rem;
+  background-color: #E3AA7D;
+  margin-bottom: 3.5rem;
+}
+
+section.products-fluid div.products div.two-products-left > div.product2 {
+  height: 20.5rem;
+  width: 30rem;
+  background-color: #A89FA2;
+}
+
+section.products-fluid div.products div.two-products-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 44.5rem;
+  width: 33%;
+  background-color: #fff;
+}
+
+section.products-fluid div.products div.two-products-right > div.product1 {
+  height: 20.5rem;
+  width: 30rem;
+  background-color: #C3F2BC;
+  margin-bottom: 3.5rem;
+}
+
+section.products-fluid div.products div.two-products-right > div.product2 {
+  height: 20.5rem;
+  width: 30rem;
+  background-color: #91AC8D;
+}
+
+section.products-fluid div.products div.one-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  height: 44.5rem;
+  width: 34%;
+  background-color: #fff;
+}
+
+section.products-fluid div.products div.one-product div.product {
+  height: 44.5rem;
+  width: 30rem;
+  background-color: #E1DDDA;
+}
+
+section.products-fluid .header-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  height: 6rem;
+  overflow: hidden;
+  margin-top: 7rem;
+}
+
+section.products-fluid .header-button > a {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+}
+
+section.products-fluid .header-button > a .przycisk {
+  height: 6rem;
+  width: 25rem;
+  background-color: #00FFA3;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+section.products-fluid .header-button > a .przycisk > span {
+  display: inline-block;
+  color: #11AF74;
+  letter-spacing: 1px;
+  margin-top: 2.1rem;
+}
+
+section.products-fluid .header-button a:hover .przycisk {
+  -webkit-transform: translateY(-6rem);
+          transform: translateY(-6rem);
+}
+
+footer.footer-fluid {
+  background-color: #262626;
+  height: 45rem;
+}
+
+footer.footer-fluid div.footer-napis {
+  height: 25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer.footer-fluid div.footer-napis > h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+footer.footer-fluid div.footer-napis .footer-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 5rem;
+}
+
+footer.footer-fluid div.footer-napis .footer-button > a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+footer.footer-fluid div.footer-napis .footer-button > a .przycisk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5rem;
+  width: 15rem;
+  background-color: #262626;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 2px solid;
+  border-color: #fff;
+}
+
+footer.footer-fluid div.footer-napis .footer-button > a .przycisk > span {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+footer.footer-fluid div.footer-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #262626;
+  height: 15rem;
+}
+
+footer.footer-fluid div.footer-main div.footer-cube {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #262626;
+  height: 100%;
+  width: 33%;
+}
+
+footer.footer-fluid div.footer-main div.footer-cube > h2 {
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+footer.footer-fluid div.footer-main div.footer-cube > p {
+  font-family: 'Raleway', sans-serif;
+  color: #555555;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+footer.footer-fluid div.footer-main nav.footer-list {
+  background-color: #262626;
+  width: 16.5%;
+}
+
+footer.footer-fluid div.footer-main nav.footer-list > ul {
+  list-style: none;
+  line-height: 2.5rem;
+  margin-left: 5rem;
+}
+
+footer.footer-fluid div.footer-main nav.footer-list > ul > li {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+footer.footer-fluid div.footer-main nav.footer-list > ul > li > a {
+  text-decoration: none;
+  color: #00FFA3;
+}
+
+footer.footer-fluid div.footer-main div.footer-contact {
+  background-color: #262626;
+}
+
+footer.footer-fluid div.footer-main div.footer-contact > p {
+  font-family: 'Raleway', sans-serif;
+  color: #00FFA3;
+  font-size: 1.5rem;
+  font-weight: 200;
+  margin-left: 4rem;
+}
+
+div.footer-end {
+  width: 100%;
+  height: 6rem;
+  background-color: #1A1A1A;
+}
+
+div.footer-end div.footer-end-small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+}
+
+div.footer-end div.footer-end-small > p {
+  font-family: 'Raleway', sans-serif;
+  color: #555555;
+  font-size: 1.5rem;
+  margin-top: 2.2rem;
+}
+
+div.footer-end div.footer-end-small > p > a {
+  text-decoration: none;
+  color: #00FFA3;
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */

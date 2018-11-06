@@ -1,0 +1,86 @@
+section.video-container{
+
+    background-color: #fff;
+    height: 40rem;
+
+    div.napisy-wideo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 40rem;
+        background-color: #fff;
+        text-align: center;
+
+        >h2 {
+
+            margin: 1rem;
+            font-family: 'Raleway', sans-serif;
+            font-size: 3rem;
+            font-weight: 400;
+            color: rgb(63, 63, 63);
+
+        }
+
+        >p {
+            
+            display: inline-block;
+            font-family: 'Raleway', sans-serif;
+            font-size: 2rem;
+            font-weight: 400;
+            color: gray;
+            width: 70rem;
+            margin-bottom: 1rem;
+            
+        }
+    
+        
+        div.video-button{
+
+            margin-top: 1rem;
+
+            >a{
+
+                display: inline-block;
+                height: 6rem;
+                width:  20rem;
+                background-color: #00FFA3;
+                text-decoration: none;
+                color: #11AF74;
+                transition: .5s;
+
+                >span{
+
+                    display: inline-block;
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 1.5rem;
+                    font-weight: 400;   
+                    text-align: center;
+                    margin-top: 2.1rem;
+                    letter-spacing: 1px;
+                    transition: .4s;
+
+                }
+            
+            }
+
+            a:hover{
+
+                background-color: #11AF74;
+                
+                span{
+
+                    color: white;
+                    
+
+                }
+
+            }
+
+
+
+        }        
+
+    }
+}
